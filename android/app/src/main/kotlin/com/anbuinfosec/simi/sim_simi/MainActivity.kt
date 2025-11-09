@@ -1,4 +1,4 @@
-package com.anbuinfosec.simi.sim_simi
+package com.anbuinfosec.simi.SimSimi
 
 import io.flutter.embedding.android.FlutterActivity
 

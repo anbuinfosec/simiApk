@@ -1,4 +1,4 @@
-name: sim_simi
+name: SimSimi
 description: "When you're bored, lonely, start a conversation with SimSimi every time you need a conversation. small talk, emotional talk AI chatbot SimSimi"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

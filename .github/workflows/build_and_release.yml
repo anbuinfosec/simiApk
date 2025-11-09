@@ -67,14 +67,14 @@ jobs:
         run: |
           mkdir -p Payload
           cp -r build/ios/iphoneos/Runner.app Payload/
-          zip -r sim_simi.ipa Payload
+          zip -r SimSimi.ipa Payload
           rm -rf Payload
 
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v4
         with:
           name: ios-ipa
-          path: sim_simi.ipa
+          path: SimSimi.ipa
           retention-days: 7
 
   # Build macOS app
@@ -138,13 +138,13 @@ jobs:
 
       - name: Create Windows ZIP
         run: |
-          Compress-Archive -Path build\windows\x64\runner\Release\* -DestinationPath sim_simi-windows.zip
+          Compress-Archive -Path build\windows\x64\runner\Release\* -DestinationPath SimSimi-windows.zip
 
       - name: Upload Windows artifact
         uses: actions/upload-artifact@v4
         with:
           name: windows-app
-          path: sim_simi-windows.zip
+          path: SimSimi-windows.zip
           retention-days: 7
 
   # Create GitHub Release with all artifacts
@@ -203,7 +203,7 @@ jobs:
             - **Android**: Download APK and install (enable "Unknown sources" in settings)
             - **iOS**: Requires Xcode or sideloading tools
             - **macOS**: Open DMG and drag app to Applications folder
-            - **Windows**: Extract ZIP and run sim_simi.exe
+            - **Windows**: Extract ZIP and run SimSimi.exe
             
             ---
             Made with ❤️ by @anbuinfosec

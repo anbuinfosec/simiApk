@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.anbuinfosec.simi" "\0"
-            VALUE "FileDescription", "sim_simi" "\0"
+            VALUE "FileDescription", "SimSimi" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "sim_simi" "\0"
+            VALUE "InternalName", "SimSimi" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.anbuinfosec.simi. All rights reserved." "\0"
-            VALUE "OriginalFilename", "sim_simi.exe" "\0"
-            VALUE "ProductName", "sim_simi" "\0"
+            VALUE "OriginalFilename", "SimSimi.exe" "\0"
+            VALUE "ProductName", "SimSimi" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

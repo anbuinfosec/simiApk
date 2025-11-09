@@ -7,7 +7,7 @@ Complete overview of the Simi Chat Flutter application architecture.
 ## 🗂️ Directory Structure
 
 ```
-sim_simi/
+SimSimi/
 ├── android/                    # Android platform code
 │   ├── app/
 │   │   ├── src/main/

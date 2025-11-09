@@ -119,8 +119,8 @@ lib/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/anbuinfosec/sim_simi.git
-   cd sim_simi
+   git clone https://github.com/anbuinfosec/SimSimi.git
+   cd SimSimi
    ```
 
 2. **Install dependencies**
@@ -249,7 +249,7 @@ static const String baseUrl = 'https://api.github.com';
 Chat messages are stored locally using SQLite. The database automatically maintains only the last 50 messages.
 
 **Location:**
-- Android: `/data/data/com.anbuinfosec.simi.sim_simi/databases/chat.db`
+- Android: `/data/data/com.anbuinfosec.simi.SimSimi/databases/chat.db`
 - iOS: `Library/Application Support/chat.db`
 - macOS: `~/Library/Containers/.../Data/Library/Application Support/chat.db`
 

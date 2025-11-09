@@ -97,7 +97,7 @@ flutter run -d macos
 # Release build
 flutter build macos --release
 
-# App location: build/macos/Build/Products/Release/sim_simi.app
+# App location: build/macos/Build/Products/Release/SimSimi.app
 ```
 
 ---
