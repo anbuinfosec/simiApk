@@ -213,4 +213,4 @@ jobs:
             artifacts/macos-app/*.zip
             artifacts/windows-app/*.zip
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
